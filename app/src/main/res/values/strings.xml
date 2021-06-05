@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">DAM_Proiect</string>
+    <string name="home">Home</string>
+    <string name="favorites">favorites</string>
+    <string name="search">favorites</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="favorite_fragment">favorite_fragment</string>
+    <string name="search_fragment">search_fragment</string>
+    <string name="btn_login_LogT">Login</string>
+    <string name="tv_login_newAccountT">No account? Click here !</string>
+    <string name="tv_login_welcomeT">Welcome to AndroidBank</string>
+    <string name="tiet_login_emailT">Email…</string>
+    <string name="tiet_login_passwordT">Password…</string>
+    <string name="tiet_register_fullnameT">Full name…</string>
+    <string name="tiet_register_emailT">Email…</string>
+    <string name="tiet_register_password1T">Password…</string>
+    <string name="tiet_register_password2T">Enter password…</string>
+    <string name="btn_register_registerT">Register</string>
+    <string name="tv_register_textT">Already have an account? Login here.</string>
+    <string name="lv_card_type">Type</string>
+    <string name="new_card_added">New card has been added!</string>
+    <string name="card_lv_bankNameT">AndroidBank</string>
+    <string name="card_lv_firstNameT">First</string>
+    <string name="card_lv_IBANT">IBAN</string>
+    <string name="card_lv_secondNameT">Second</string>
+    <string name="card_lv_AmountT">Amount</string>
+    <string name="card_lv_RONIT">RON</string>
+    <string name="card_lv_currentBalanceT">Current Balance</string>
+    <string name="transaction_lv_transactionIdT">Id</string>
+    <string name="transaction_lv_amountT">Amount</string>
+    <string name="tr_lv_descriptionT">Description</string>
+    <string name="tr_lv_dateT">Date</string>
+    <string name="transaction_lv_RONT">RON</string>
+    <string name="lv_tv_trHistoryT">Transaction History</string>
+    <string name="add_hint">Add a new Transaction</string>
+    <string name="btn_add_trT">Save</string>
+    <string name="add_a_new_transaction">Add a new Transaction</string>
+    <string name="add_amount">Amount</string>
+    <string name="add_date">Date</string>
+    <string name="add_description">Description</string>
+    <string name="new_transaction_added">New transaction has been added!</string>
+    <string name="btn_main_addT">Save</string>
+    <string name="transaction_lv_Category">Category</string>
+    <string name="lv_transaction_amount_value">%1$s RON</string>
+    <string name="btn_tr_addT">Save</string>
+    <string name="THIS_CARD_DOES_NOT_HAVE_ANY_TRANSACTION">THIS_CARD_DOES_NOT_HAVE_ANY_TRANSACTION</string>
+    <string name="add_card">add_card</string>
+    <string name="add_card_bankNameT">Bank name</string>
+    <string name="add_card_expirationMonth">Expiration Month</string>
+    <string name="add_card_expirationYearT">Expiration year</string>
+    <string name="add_card_hint">Add a new Card</string>
+    <string name="add_card_serialNoT">SerialNo</string>
+    <string name="add_account_currentBalanceT">Current Balance</string>
+    <string name="add_account_hint">Account:</string>
+    <string name="add_account_currBalance">Current balance</string>
+    <string name="add_account_firstNameT">First name</string>
+    <string name="add_account_secondNameT">Second name</string>
+    <string name="add_account_addressT">Address</string>
+    <string name="add_account_sexT">Sex</string>
+    <string name="add_account_tiet_ageT">Age</string>
+    <string name="add_accountType_hint">Account Type:</string>
+    <string name="add_accountType_typeT">Type</string>
+    <string name="add_accountType_tiet_PINT">PIN</string>
+    <string name="accept_the_card_conditions">Accept the card conditions</string>
+    <string name="card_lv_SerialNoT">Serial Number</string>
+    <string name="add_account_genderT">Gender</string>
+
+    <string name="lv_card_row_amount_value">%1$s RON</string>
+    <string name="lv_card_row_serial_value">%1$s </string>
+    <string name="lv_card_row_default_value">-</string>
+    <string name="card_lv_expirationMonth">expMonth</string>
+    <string name="card_lv_coma">/</string>
+    <string name="card_lv_expirationYear">expYear</string>
+    <string name="main_banks">banks</string>
+    <string name="tv_hint_bankT">List of partner banks</string>
+    <string name="bank_lv_bankNameT">BankName</string>
+    <string name="bank_lv_originT">Origin</string>
+    <string name="bank_lv_employeeT">Employee</string>
+    <string name="bank_lv_netIncomeT">NetIncome</string>
+    <string name="bank_view_netIncomeT">NetIncome</string>
+    <string name="bank_view_employeeT">Employee</string>
+    <string name="bank_view_originT">Origin</string>
+    <string name="bank_view_bankNameT">BankName</string>
+    <string name="bank_view_nameT">Name</string>
+    <string name="bank_view_ageText">Age:</string>
+    <string name="bank_view_ageT">age</string>
+    <string name="bank_view_netWorthText">Net Worth:</string>
+    <string name="bank_view_netWorthT">netWorth</string>
+    <string name="main_coupon">coupon</string>
+    <string name="coupon_hint">Your coupons</string>
+    <string name="coupon_clear_fields">Clear</string>
+    <string name="coupon_delete">Delete</string>
+    <string name="coupon_save">Save</string>
+    <string name="coupon_edit">Add or edit</string>
+    <string name="coupon_view_nameT">name</string>
+    <string name="coupon_view_discountT">Discount</string>
+    <string name="coupon_view_expDateT">ExpDate</string>
+    <string name="coupon_tiet_nameT">Name…</string>
+    <string name="coupon_tiet_discountT">Discount…</string>
+    <string name="coupon_tiet_expDateT">Expiration date…</string>
+    <string name="tr_card_hint">Add a new transaction</string>
+    <string name="add_tr_amountT">Amount…</string>
+    <string name="add_tr_descriptionT">Description…</string>
+    <string name="spn_tr_tvT">Category</string>
+    <string name="add_tr_dateT">Date…</string>
+    <string name="card_hint">Cards management</string>
+    <string name="logout">Logout</string>
+    <string name="btn_remember">Remember me</string>
+    <string name="btn_remember2">Remember name</string>
+    <string name="add_transaction_date_error_message">Error! Date format is wrong</string>
+    <string name="add_transaction_amount_error_message">Error! Amount format is wrong</string>
+    <string name="add_transaction_description_error_message">Error! Description format is wrong</string>
+    <string name="add_card_firstName_error_message">Error! Wrong name format</string>
+    <string name="add_card_currBalance_error_message">Error! Wrong format current balance!</string>
+    <string name="add_card_expMonth_error_message">Error! Exp month format is wrong</string>
+    <string name="add_card_expYear_error_message">"Error! Wrong format expYear "</string>
+    <string name="add_card_Serialno_error_message">Error! Wrong serialNo. format</string>
+    <string name="androidbank">AndroidBank</string>
+    <string name="add_tr_personT">To : …</string>
+    <string name="bank_view_employeeTT">K</string>
+    <string name="bank_view_netIncomeTT">mil.</string>
+    <string name="bank_view_netWorthTextt">Net worth(mil.):</string>
+    <string name="bank_view_netWorthTexttt">(mil.)</string>
+    <string name="transaction_lv_Person">Person</string>
+    <string name="tv_hint_transactionT">Transaction reports</string>
+    <string name="info_welcome">Thank you for using this app.</string>
+    <string name="info_pleaseRate">Please drop a rate if you find this app useful</string>
+    <string name="info_thanks">Thank you!</string>
+    <string name="stoica_radu_info_wishes"><![CDATA[Built by : Stoica Radu & Stirbescu Silviu]]></string>
+    <string name="info_msgThanks">Thanks!</string>
+    <string name="btn_Remember3">Remember destination</string>
+    <string name="tv_login_welcome">"          Welcome to android bank"</string>
+
+    <string-array name="add_transaction_category_values">
+        <item>Bank</item>
+        <item>Gift</item>
+        <item>Person</item>
+        <item>Clothes</item>
+        <item>Expense</item>
+        <item>Car</item>
+        <item>Chicks</item>
+    </string-array>
+
+    <string-array name="add_card_type_values">
+        <item>Default</item>
+        <item>Shopping</item>
+        <item>Economy</item>
+    </string-array>
+
+</resources>

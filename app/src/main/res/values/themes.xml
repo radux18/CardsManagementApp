@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.DAM_Proiect" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_1</item>
+        <item name="colorPrimaryVariant">@color/shadow_dark_blue</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green_2</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/green_2</item>
+        <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/pro_bold</item>
+        <item name="android:textColor">@color/shadow_dark_blue</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+</resources>

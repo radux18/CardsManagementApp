@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_btn4"
+    android:theme="@style/Theme.DAM_Proiect">
+
+
+    <ImageView
+        android:id="@+id/card_lv_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/card_lv_tv_type"
+        android:src="@drawable/android"
+        android:contentDescription="@string/androidbank" />
+
+
+
+    <TextView
+        android:id="@+id/card_lv_bankName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/card_lv_picture"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/card_lv_bankNameT"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/card_lv_expirationMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/card_lv_bankName"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/card_lv_expirationMonth"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/card_lv_coma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/card_lv_expirationMonth"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/card_lv_coma"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="2dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/card_lv_expirationYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/card_lv_coma"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/card_lv_expirationYear"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="2dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/card_lv_expirationMonthT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/card_lv_bankName"
+        app:layout_constraintTop_toBottomOf="@id/card_lv_expirationMonth"
+        android:text="@string/card_lv_expirationMonth"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/card_lv_comaT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/card_lv_expirationMonthT"
+        app:layout_constraintTop_toBottomOf="@id/card_lv_coma"
+        android:text="@string/card_lv_coma"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="7dp"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/card_lv_expirationYearT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/card_lv_comaT"
+        app:layout_constraintTop_toBottomOf="@id/card_lv_expirationYear"
+        android:text="@string/card_lv_expirationYear"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="2dp"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/card_lv_tv_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/lv_card_type"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/card_lv_SerialNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/card_lv_picture2"
+        app:layout_constraintTop_toBottomOf="@id/card_lv_bankName"
+        android:layout_marginTop="12dp"
+        android:textSize="20dp"
+        android:text="@string/card_lv_SerialNoT"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/card_lv_picture2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_lv_tv_type"
+        android:src="@drawable/visa"
+        android:contentDescription="@string/androidbank" />
+
+    <TextView
+        android:id="@+id/card_lv_firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="18dp"
+        android:text="@string/card_lv_firstNameT"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/card_lv_SerialNo"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:id="@+id/card_lv_secondName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="@string/card_lv_secondNameT"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/card_lv_SerialNo"
+        app:layout_constraintStart_toEndOf="@id/card_lv_firstName"
+        android:layout_marginStart="25dp"
+        />
+
+    <TextView
+        android:id="@+id/card_lv_currentBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="@string/card_lv_currentBalanceT"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/card_lv_SerialNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
